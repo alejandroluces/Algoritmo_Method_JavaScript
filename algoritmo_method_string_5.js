@@ -14,9 +14,13 @@
 // El método concat() se utiliza para combinar dos o más cadenas de texto. En este caso, se te proporcionan dos cadenas: "Hola, " y "Mundo!". Al usar concat(), 
 // estas dos cadenas se unirán para formar una sola cadena: "Hola, Mundo!".
 
-let saludo="hola"
-let lugar="mundo"
+// Solución:
 
-let result=saludo.concat(",",lugar)
+var cadena1 = "Hola, ";
+var cadena2 = "Mundo!";
+const concatStr =(a,b) =>{
+    return a.concat(b)
 
-console.log(result);
+}
+
+console.log(concatStr(cadena1,cadena2));
