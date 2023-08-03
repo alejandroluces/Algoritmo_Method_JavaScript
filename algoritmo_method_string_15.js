@@ -19,6 +19,7 @@
 // javascript
 // Copy code
 let texto = "Puede contactarnos en support@example.com o en sales@example.net. Para más información, visite www.example.org."
+// Expresion regular que filtra los correos. 
 let regex = /\w+@\w+\.\w+/g
 const filtrBi =(a) =>{
     let b = a.match(regex)
