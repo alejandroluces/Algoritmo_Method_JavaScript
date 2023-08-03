@@ -9,7 +9,7 @@ console.log(newStr);
 
 // Si usamos una funcion seria asi:
 
-let str2= "Tengo una hija que se llama Sara";
+let str2= "Tengo una hija que se llama Sara, pero Sara es muy traviesa";
 const replaceStr =(a) =>{
 return a.replace("Sara", "gato");
 }
