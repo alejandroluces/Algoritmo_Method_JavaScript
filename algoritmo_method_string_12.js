@@ -6,3 +6,10 @@ const deleteSpace =(a) =>{
     return a.trimEnd()
 }
 console.log(deleteSpace(cadena));
+
+
+let cadenaSecond = "           -Hola, mundo dos        !                              ";
+const deleteSpaceStard =(b) =>{
+    return b.trimStard()
+}
+console.log(deleteSpace(cadenaSecond));
