@@ -1,0 +1,17 @@
+// Array.prototype.flat()
+// The flat() method creates a new array with all sub-array elements concatenated into it recursively up to the specified depth.
+
+// Algoritmo de ejemplo:
+
+// const arr1 = [0, 1, 2, [3, 4]];
+
+const arr1 = [0, 1, 2, [3, 4]];
+const array3=[8,9,10]
+
+const uniArray=(arr1,array3)=>{
+    const newArray=arr1.flat().concat(array3)
+    return newArray
+}
+
+console.log(uniArray(arr1,array3))
+
